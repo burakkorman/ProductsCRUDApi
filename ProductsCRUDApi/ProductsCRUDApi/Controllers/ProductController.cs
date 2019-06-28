@@ -42,7 +42,7 @@ namespace ProductsCRUDApi.Controllers
             return data;
         }
 
-        // GET api/<controller>/pagination?take=10&skip=10
+        // GET api/<controller>/pagination?take=20&skip=20
         [HttpGet("pagination")] 
         public List<ProductDTO> Get(int take, int skip)
         {
