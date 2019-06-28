@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace ProductsCRUDApi.Models
 {
-    public class ProductRequestDTO
+    public class ProductDTO
     {
-        public int productId { get; set; }
+        public string productName { get; set; }
+        public decimal unitPrice { get; set; }
     }
 }

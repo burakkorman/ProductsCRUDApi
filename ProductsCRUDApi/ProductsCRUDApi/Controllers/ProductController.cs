@@ -22,13 +22,18 @@ namespace ProductsCRUDApi.Controllers
         }
 
         [HttpGet]
-        public List<ProductResponseDTO> Get()
+        public ActionResult<List<ProductDTO>> Get()
         {
-            return _productService.GetAll();
+            var pList = _productService.GetAll();
+
+            if (pList == null)
+                return NotFound();
+
+            return pList;
         }
 
         [HttpGet("{id}")]
-        public ActionResult<ProductResponseDTO> Get(int id)
+        public ActionResult<ProductDTO> Get(int id)
         {
             var data = _productService.GetById(id);
             if (data == null)
@@ -37,16 +42,23 @@ namespace ProductsCRUDApi.Controllers
             return data;
         }
 
+        // GET api/<controller>/pagination?take=10&skip=10
+        [HttpGet("pagination")] 
+        public List<ProductDTO> Get(int take, int skip)
+        {
+            return _productService.Pagination(take, skip);
+        }
+
         // POST api/<controller>
         [HttpPost]
-        public void Post([FromBody]ProductResponseDTO p)
+        public void Post([FromBody]ProductDTO p)
         {
             _productService.Add(p);
         }
 
         // PUT api/<controller>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]ProductResponseDTO p)
+        public void Put(int id, [FromBody]ProductDTO p)
         {
             _productService.Update(id, p);
         }

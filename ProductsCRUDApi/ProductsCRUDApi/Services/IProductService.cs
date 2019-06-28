@@ -9,10 +9,11 @@ namespace ProductsCRUDApi.Services
 {
     public interface IProductService
     {
-        List<ProductResponseDTO> GetAll();
-        ProductResponseDTO GetById(int productId);
-        void Add(ProductResponseDTO product);
-        void Update(int id, ProductResponseDTO product);
+        List<ProductDTO> GetAll();
+        ProductDTO GetById(int productId);
+        List<ProductDTO> Pagination(int take, int skip);
+        void Add(ProductDTO product);
+        void Update(int id, ProductDTO product);
         void Delete(int productId);
     }
 }
