@@ -1,0 +1,14 @@
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\bin\Debug\netcoreapp2.2\ProductsCRUDApi.deps.json
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\bin\Debug\netcoreapp2.2\ProductsCRUDApi.runtimeconfig.json
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\bin\Debug\netcoreapp2.2\ProductsCRUDApi.runtimeconfig.dev.json
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\bin\Debug\netcoreapp2.2\ProductsCRUDApi.dll
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\bin\Debug\netcoreapp2.2\ProductsCRUDApi.pdb
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\obj\Debug\netcoreapp2.2\ProductsCRUDApi.csprojAssemblyReference.cache
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\obj\Debug\netcoreapp2.2\ProductsCRUDApi.csproj.CoreCompileInputs.cache
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\obj\Debug\netcoreapp2.2\ProductsCRUDApi.RazorAssemblyInfo.cache
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\obj\Debug\netcoreapp2.2\ProductsCRUDApi.RazorAssemblyInfo.cs
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\obj\Debug\netcoreapp2.2\ProductsCRUDApi.AssemblyInfoInputs.cache
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\obj\Debug\netcoreapp2.2\ProductsCRUDApi.AssemblyInfo.cs
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\obj\Debug\netcoreapp2.2\ProductsCRUDApi.RazorTargetAssemblyInfo.cache
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\obj\Debug\netcoreapp2.2\ProductsCRUDApi.dll
+C:\Users\KORMAN\Desktop\WEB\NETCORE\ProductsCRUDApi\ProductsCRUDApi\obj\Debug\netcoreapp2.2\ProductsCRUDApi.pdb
