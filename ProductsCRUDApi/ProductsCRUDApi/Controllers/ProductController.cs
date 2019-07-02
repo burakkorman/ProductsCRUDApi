@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProductsCRUDApi.Entities;
 using ProductsCRUDApi.Models;
@@ -11,6 +12,7 @@ using ProductsCRUDApi.Services;
 
 namespace ProductsCRUDApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     public class ProductController : Controller
     {
@@ -20,7 +22,7 @@ namespace ProductsCRUDApi.Controllers
         {
             _productService = productService;
         }
-
+        
         [HttpGet]
         public ActionResult<List<ProductDTO>> Get()
         {
@@ -31,7 +33,7 @@ namespace ProductsCRUDApi.Controllers
 
             return pList;
         }
-
+        
         [HttpGet("{id}")]
         public ActionResult<ProductDTO> Get(int id)
         {
@@ -42,7 +44,7 @@ namespace ProductsCRUDApi.Controllers
             return data;
         }
 
-        // GET api/<controller>/pagination?take=20&skip=20
+        // GET api/pagination?take=10&skip=10
         [HttpGet("pagination")] 
         public List<ProductDTO> Get(int take, int skip)
         {

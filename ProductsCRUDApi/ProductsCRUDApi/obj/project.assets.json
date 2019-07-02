@@ -12080,11 +12080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KORMAN\\Documents\\GitHub\\ProductsCRUDApi\\ProductsCRUDApi\\ProductsCRUDApi\\ProductsCRUDApi.csproj",
+      "projectUniqueName": "C:\\Users\\KORMAN\\Desktop\\WEB\\NETCORE\\ProductsCRUDApi\\ProductsCRUDApi\\ProductsCRUDApi.csproj",
       "projectName": "ProductsCRUDApi",
-      "projectPath": "C:\\Users\\KORMAN\\Documents\\GitHub\\ProductsCRUDApi\\ProductsCRUDApi\\ProductsCRUDApi\\ProductsCRUDApi.csproj",
+      "projectPath": "C:\\Users\\KORMAN\\Desktop\\WEB\\NETCORE\\ProductsCRUDApi\\ProductsCRUDApi\\ProductsCRUDApi.csproj",
       "packagesPath": "C:\\Users\\KORMAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KORMAN\\Documents\\GitHub\\ProductsCRUDApi\\ProductsCRUDApi\\ProductsCRUDApi\\obj\\",
+      "outputPath": "C:\\Users\\KORMAN\\Desktop\\WEB\\NETCORE\\ProductsCRUDApi\\ProductsCRUDApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

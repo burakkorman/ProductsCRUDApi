@@ -16,6 +16,7 @@ namespace ProductsCRUDApi.Services
         {
             this._productContext = context;
         }
+
         public void Add(ProductDTO product)
         {
             Product p = new Product
@@ -72,7 +73,8 @@ namespace ProductsCRUDApi.Services
 
         public List<ProductDTO> Pagination(int take, int skip)
         {
-            List<ProductDTO> pList = _productContext.Products
+            List<ProductDTO> pList = _productContext
+                                    .Products
                                     .Skip(skip)
                                     .Take(take)
                                     .Select(x =>
